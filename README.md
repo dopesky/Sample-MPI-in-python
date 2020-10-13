@@ -13,9 +13,11 @@ Run the [area_under_a_curve.ipynb](https://github.com/dopesky/Sample-MPI-in-pyth
 
 Alternatively, you can use the cmd to run each of the ``.py`` files with the following codes:
 ````
-python area_under_a_curve.py
-mpiexec -n 4 python -m mpi4py area_under_a_curve_mpi.py
-mpiexec -n 4 python -m mpi4py mpi_processing_sample.py
+$ python area_under_a_curve.py
+
+$ mpiexec -n 4 python -m mpi4py area_under_a_curve_mpi.py
+
+$ mpiexec -n 4 python -m mpi4py mpi_processing_sample.py
 ````
 
 ### Note:
